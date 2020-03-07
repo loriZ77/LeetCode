@@ -27,7 +27,6 @@ public class ReverseLinkedList206 {
                 head.next = prevNode;
                 prevNode = head;
                 head = nextNode;
-
             }
             return prevNode;
 
